@@ -1,0 +1,39 @@
+html, body {width:100%; padding:0; margin:0px;}
+
+body { 	 
+	font: 14px/22px Georgia, "Times New Roman";
+	color:hsl(0, 1%, 27%);
+	min-width:1000px;
+	background-image: url("images/mos.png");
+	background-attachment: fixed;	
+}
+
+#menu  ul{
+   list-style-type: none;
+   text-align: center;
+}
+
+footer{
+   text-align:center;
+}
+
+.link{
+	text-decoration: none;
+    color: black;
+}
+.negritas{
+    font-weight:bolder;
+	color: rgb(245, 14, 14);
+}
+p{
+	color: rgb(255, 68, 0);
+	text-align: center;
+	}
+
+h1{
+	text-align: center;
+}
+
+
+
+

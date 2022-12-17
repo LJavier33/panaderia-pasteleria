@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+    <meta http-equiv="“X-UA-Compatible”" content="“IE" ="edge”"/>
+    <name ="“viewport”" content="“width" ="device-width,"initial-scale="1.0”"/>
+    <link href="estilos.css"  rel="stylesheet" type="text/css">
+    <title>Pedidos</title>
+    <style></style>
+</head>
+<body>
+
+<center><img src="images/log.png" width="220" herght="220"></center>
+<p><h1><div align="center">Ingresa tus datos y haz tu pedido</h1></p></div> <br>
+
+    <table align="center" border="1" bordercolor="gray" width="90%" height="100%"  cellpadding="2" cellspacing"3" bgcolor="white"><font color="green"></font>
+       
+                <td>
+                    <h2><p align="center">Selecciona el tipo de pastel de tu agrado</h2></p>
+                    <br>
+                    <input type="radio" id="esponjoso" name="pastel" value="esponjoso">
+                    <label for="roja">Esponjoso</label><br>
+                    
+                    <input type="radio" id="mantequilla" name="pastel" value="mantequilla">
+                    <label for="verde">Mantequilla</label><br>
+                    
+                    <input type="radio" id="merengue" name="pastel" value="merengue">
+                    <label for="guacamole">Merengue</label><br> 
+                    
+                    <input type="radio" id="fermentado" name="pastel" value="fermentado">
+                    <label for="roja">Fermentado</label><br>
+                    
+                    <input type="radio" id="leches" name="pastel" value="leches">
+                    <label for="verde">Tres leches</label><br>
+                    
+                    <input type="radio" id="imposible" name="pastel" value="imposible">
+                    <label for="guacamole">Imposible</label><br>  
+                </td>
+
+                <td>
+                    <h2><p align="center">Selecciona los sabores de tu agrado</h2></p>
+                    <br>
+                    <input type="checkbox" id="topping1" name="topping1" value="chocolate">
+                    <label for="topping1">Chocolate</label><br>
+                    
+                    <input type="checkbox" id="topping2" name="topping1" value="vainilla">
+                    <label for="topping">Vainilla</label><br>
+                    
+                    <input type="checkbox" id="topping2" name="topping1" value="fresa">
+                    <label for="topping">Fresa</label><br>
+    
+                    <input type="checkbox" id="topping1" name="topping1" value="cajeta">
+                    <label for="topping1">Cajeta</label><br>
+                    
+                    <input type="checkbox" id="topping2" name="topping1" value="nuez">
+                    <label for="topping">Nuez</label><br>
+                    
+                    <input type="checkbox" id="topping2" name="topping1" value="cafe">
+                    <label for="topping">Cafe</label><br>
+
+                    <p><center><textarea name="comentario" rows="4" cols="13">Otro sabor:</textarea></p></center>
+                    
+                </td>
+                    <td>
+                        <h2><p align="center">Selecciona los adornos de tu agrado</h2></p>
+                    <br>
+                        <input type="checkbox" id="topping1" name="topping1" value="velasmagicas">
+                        <label for="topping1">Velas Magicas</label><br>
+                        
+                        <input type="checkbox" id="topping2" name="topping1" value="Tiras">
+                        <label for="topping">Tiras de colores</label><br>
+                        
+                        <input type="checkbox" id="topping2" name="topping1" value="velaspersonajes">
+                        <label for="topping">Velas c/f personaje favorito</label><br>
+        
+                        <input type="checkbox" id="topping1" name="topping1" value="personalizado">
+                        <label for="topping1">Con mensaje "personalizado"</label><br>
+                        
+                        <input type="checkbox" id="topping2" name="topping1" value="fruta">
+                        <label for="topping">fruta extra</label><br>
+
+                        <input type="checkbox" id="topping2" name="topping1" value="BGL">
+                        <label for="topping">Bombones, Gomitas y Lunetas</label><br>
+
+                        <input type="checkbox" id="topping2" name="topping1" value="Otros">
+                        <label for="topping">Otros</label>
+                        <p><center><textarea name="comentario" rows="5" cols="35">Menciona más adornos:</textarea></p></center> 
+
+                    </td>
+                    <td>
+                    <h2><p align="center">¿Cual es la ocasion especial?</h2></p>
+                    <br>
+
+                <input type="radio" id="seleccion" name="pastel" value="cumpleaños">
+                <label for="verde">Cumpleaños</label><br>
+
+                <input type="radio" id="seleccion" name="pastel" value="infantil">
+                <label for="roja">Fiesta infantil</label><br>
+                
+                <input type="radio" id="seleccion" name="pastel" value="aniversario">
+                <label for="guacamole">Aniversario</label><br> 
+
+                <input type="radio" id="seleccion" name="pastel" value="especial">
+                <label for="verde">Momento especial</label><br>
+
+                <input type="radio" id="seleccion" name="pastel" value="gusto">
+                <label for="roja">Solo por gusto</label><br>
+
+                <input type="radio" id="seleccion" name="pastel" value="gusto">
+                <label for="roja">Otra ocasión</label><br>
+            </td>
+            <td><center>
+                <h2><p align="center">Selecciona la fecha de entrega de tu pedido<br>(Con un lapso de 2 meses de anticipación)</h2></p><br>
+                <br>
+                <input type="date" id="fecha1" name="fecha1"><br>
+                <input type="time" id="fecha4" name="fecha4"><br>
+                 </td></center>
+
+               <td><center>
+                        
+                <h2><p align="center">Confirmación de tu pedido</h2></p><br>
+                    <br>
+                <form action="/action.js" id="form1" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <button type="submit">Enviar</button>
+                <input type="reset" id="pswl" name="psw1" form="form1">
+                </form>
+            </td></center>
+</table>
+
+<table align="center" border="2" bordercolor="gray" width="30%" height="20%"  cellpadding="2" cellspacing"3" bgcolor="white"><font color="green"></font>
+    <thead>
+        <tr>
+         <th>Ficha de pago</th>
+        </tr>
+    </thead>
+    <td>
+<h2><p align="center">Despues de llenar los datos,<br> descarga el archivo para saber como realizar el pago de tu pedido</h2></p><br>
+<center><a href="manualhtml.pdf">Descarga el PDF</a></td></center>
+<br>
+<br>
+</table
+<aside>
+    <a href="index.html"><img src="images/logo1.png" title="Regresar al inicio" width="230" herght="230">
+    </aside>
+    <footer><center>
+        <p><a rel="nofollow" href="http://www.dof.gob.mx/" target="_blank" class="link" title="Da clic y conoce la ley de privacidad">Aviso de privacidad.</a></p>
+       </footer></center>
+           
+</body>
+</html>
